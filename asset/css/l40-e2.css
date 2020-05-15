@@ -1,0 +1,81 @@
+.app {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 50px 50px;
+}
+.container {
+    width: 750px;
+    height: 550px;
+    padding: 25px 20px;
+    background-color: #DCF1E5;
+    border-radius: 50px;
+    box-sizing: border-box;
+
+}
+.list {
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 0;
+}
+.item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #C7E0D2;
+    padding: 25px 0;
+    box-sizing: border-box;
+}
+.item:last-child {
+    border-bottom: 0px solid;
+    padding: 25px 0;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 105px;
+    background-color: #00BE6F;
+    border-radius: 30px;
+    margin-right: 25px;
+}
+.icon-img {
+    width: 50px;
+    height: 50px;
+    color: red;
+}
+.team {
+    color: #456153;
+    font-size: 25px;
+    font-weight: 500;
+}
+.para {
+    color: #6A8275;
+    font-weight: 300;
+}
+
+
+.avatar {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2px;
+  }
+.content {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.pepole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.more {
+    text-align: center;
+    background-color: #47545F;
+    color: white;
+}

@@ -1,0 +1,89 @@
+html {
+    background-color: #F4F8FF;
+}
+.container {
+    width: 770px;
+    height: 580px;
+    background-color: white;
+    border: 1px solid #E6E6E8;
+    border-radius: 5px;
+    margin: 45px;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E6E6E8;
+}
+.title__text, .title__icon {
+    color: #555;
+    margin: 35px 35px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.image {
+    display: flex;
+    margin: 20px 35px 45px 35px;
+}
+.image__visa, .image__master-card {
+    width: 60px;
+    height: 40px;
+    border: 2px solid #95BFFA;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 15px 25px;
+    object-fit: cover;
+    box-shadow: -3px 5px 10px #95BFFA;
+}
+.cardholder {
+    box-sizing: content-box;
+    padding: 0 35px;
+}
+.cardinfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+    margin-bottom: 35px;
+}
+.cardinfo__number {
+    width: 60%;
+    box-sizing: content-box;
+}
+.cardinfo__date {
+    width: 18%;
+    box-sizing: content-box;
+}
+.cardinfo__ccv {
+    width: 18%;
+    box-sizing: content-box;
+}
+.card-text {
+    font-size: 23px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.card-input {
+    font-size: 20px;
+    width: 100%;
+    color: #57636E;
+    border: 2px solid #9ED4FF;
+    border-radius: 5px;
+    padding: 15px;
+    outline: none;
+    caret-color: red;
+    box-sizing: border-box;
+}
+.attention {
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+}
+.attention__icon {
+    color: #4C9CDC;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.attention__text {
+    color: #515151;
+    font-size: 20px;
+}
